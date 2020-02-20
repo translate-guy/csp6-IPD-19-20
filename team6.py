@@ -24,7 +24,7 @@ def move(my_history, their_history, my_score, their_score):
     return 'c'
   if their_history == 'b'
     return 'b'
-    betray += !
+    betray += 1
   elif betray %4 == 0:
     return 'c'
   else:
